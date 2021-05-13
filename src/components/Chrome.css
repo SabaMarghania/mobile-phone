@@ -1,0 +1,140 @@
+.chrome{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.chrome__container{
+    /* border: 1px solid black; */
+    width: 330px;
+    /* background-color: #da0404; */
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 560px;
+}
+.input{
+    width: 250px;
+    height: 35px;
+    border-radius: 15px;
+    padding-left: 15px;
+    border: none;
+    background-color: rgb(218, 216, 216);
+    outline: none;
+}
+.chrome__browser__quicksearch{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin-top: 20px;
+    margin: 20px auto;
+}
+.chrome__browser__menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.chrome__browser__menu p{
+    margin-top: 5px;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: gray;
+    text-align: left;
+}
+.chrome__browser__menu__cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: rgb(201, 200, 200);
+}
+.btn{
+    width: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #fff;
+    border:none;
+    outline:none;
+    height: 35px;
+}
+.chrome__browser__search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chrome__browser__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.chrome__body__power{
+    display: flex;
+    width: 45px;
+    height: 3px;
+    color: #fff;
+    flex-direction: column;
+    margin-right: -32px;
+    padding: 3px;
+    margin-top: 50px;
+    font-size: 14px;
+    transform: rotate(90deg);
+    float: right;
+    background-color: #252525;
+}
+.chrome__top__container{
+    border-bottom: 1px solid black;
+    background-color: #161616;
+    height: 50px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.chrome__top{
+    display: flex;
+    height: 50px; 
+    align-items: center;
+    width: 58%;
+    float: right;
+    justify-content: space-between;
+}
+.chrome__inline{
+    width: 50px;
+    background-color: rgb(61, 60, 60);
+    height: 4px;
+}
+.chrome__camera{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17px;
+    height: 17px;
+    border-radius: 15px;
+    background-color: rgb(90, 88, 88);
+    margin-right: 40px;
+}
+.chrome__camera_part{
+    width: 7px;
+    height: 7px;
+    border-radius: 15px;
+    background-color: rgb(61, 60, 60);
+}
+.chrome__body{
+    width: 100%;
+    height: 500px;
+    width: 326px;
+    border: 2px solid black;
+}
+.chrome__bottom{
+    background-color: #161616;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.chrome__bottom__name{
+    display: flex;
+    align-items: center;
+    color: rgb(223, 222, 222);
+    justify-content: space-between;
+    width: 47%;
+    margin-left: 38%;
+}

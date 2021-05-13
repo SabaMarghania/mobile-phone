@@ -1,0 +1,189 @@
+.ChromeSearch{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.ChromeSearch__container{
+    /* border: 1px solid black; */
+    width: 330px;
+    /* background-color: #da0404; */
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 560px;
+}
+.ChromeSearch__body__header{
+    display: flex;
+    justify-content: center;    
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.ChromeSearch_resultImage{
+    height: fit-content;
+}
+.ChromeSearch__body__search{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.ChromeSearch__body__options{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+.ChromeSearch__body__options_item p{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.ChromeSearch__input{
+    width: 270px;
+    outline:none;
+    padding-left: 35px;
+    border:none;
+    box-shadow: 0px 1px 9px -3px rgba(0,0,0,0.75);
+    height: 30px;
+    border-radius: 15px;
+}
+.input{
+    width: 250px;
+    height: 35px;
+    border-radius: 15px;
+    padding-left: 15px;
+    border: none;
+    background-color: rgb(218, 216, 216);
+    outline: none;
+}
+.ChromeSearch__browser__quicksearch{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    margin-top: 20px;
+    margin: 20px auto;
+}
+.ChromeSearch__browser__menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ChromeSearch__browser__menu p{
+    margin-top: 5px;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: gray;
+    text-align: left;
+}
+.ChromeSearch__browser__menu__cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(201, 200, 200);
+}
+.btn{
+    width: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #fff;
+    border:none;
+    outline:none;
+    height: 35px;
+}
+.ChromeSearch__browser__search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ChromeSearch__browser__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.ChromeSearch__body__power{
+    display: flex;
+    width: 45px;
+    height: 15px;
+    color: #fff;
+    flex-direction: column;
+    margin-right: -38px;
+    padding: 3px;
+    margin-top: 50px;
+    font-size: 14px;
+    transform: rotate(90deg);
+    float: right;
+    background-color: rgb(65, 62, 62);
+}
+.ChromeSearch__top__container{
+    border-bottom: 1px solid black;
+    background-color: #161616;
+    height: 50px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.ChromeSearch__top{
+    display: flex;
+    height: 50px; 
+    align-items: center;
+    width: 58%;
+    float: right;
+    justify-content: space-between;
+}
+.ChromeSearch__inline{
+    width: 50px;
+    background-color: rgb(61, 60, 60);
+    height: 4px;
+}
+.ChromeSearch__camera{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17px;
+    height: 17px;
+    border-radius: 15px;
+    background-color: rgb(90, 88, 88);
+    margin-right: 40px;
+}
+.ChromeSearch__camera_part{
+    width: 7px;
+    height: 7px;
+    border-radius: 15px;
+    background-color: rgb(61, 60, 60);
+}
+.ChromeSearch__body{
+    width: 100%;
+    height: 500px;
+    width: 326px;
+    border: 2px solid black;
+    overflow-x: hidden;
+}
+.ChromeSearch_resultSnippet{
+    font-size: 13px;
+
+}
+.ChromeSearch_resultTitle{
+    font-size: 16px !important;
+    text-decoration: none;
+}
+.ChromeSearch_result a{
+    font-size: 13px;
+}
+.ChromeSearch_result{
+    padding: 10px;
+
+}
+.ChromeSearch__bottom{
+    background-color: #161616;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.ChromeSearch__bottom__name{
+    display: flex;
+    align-items: center;
+    color: rgb(223, 222, 222);
+    justify-content: space-between;
+    width: 47%;
+    margin-left: 38%;
+}

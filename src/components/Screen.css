@@ -1,0 +1,118 @@
+.screen{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.screen__container{
+    width: 330px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 560px;
+}
+.screen__body__menu{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.screen__body__browser{
+    display: flex;
+    height: 490px;
+    align-items: flex-end;
+    /* margin-left: 220px; */
+}
+.screen__body__menu__cont{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 290px;
+    height: 490px;
+}
+.screen__icon{
+    font-size: 35px !important;
+    
+}
+.screen__body__power{
+    display: flex;
+    width: 45px;
+    height: 3px;
+    color: #fff;
+    flex-direction: column;
+    margin-right: -32px;
+    padding: 3px;
+    margin-top: 50px;
+    font-size: 14px;
+    transform: rotate(90deg);
+    float: right;
+    background-color: #252525;
+
+}
+.screen__top__container{
+    border-bottom: 1px solid black;
+    background-color: #161616;
+    height: 50px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.screen__top{
+    display: flex;
+    height: 50px; 
+    align-items: center;
+    width: 58%;
+    float: right;
+    justify-content: space-between;
+}
+.screen__inline{
+    width: 50px;
+    background-color: rgb(61, 60, 60);
+    height: 4px;
+}
+.screen__camera{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17px;
+    height: 17px;
+    border-radius: 15px;
+    background-color: rgb(90, 88, 88);
+    margin-right: 40px;
+}
+.screen__camera_part{
+    width: 7px;
+    height: 7px;
+    border-radius: 15px;
+    background-color: rgb(61, 60, 60);
+}
+.screen__body{
+    width: 100%;
+    height: 500px;
+    width: 326px;
+    border: 2px solid black;
+    background-image: url("../images/bg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+.screen__body__iconCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(31, 113, 168);
+    border-radius: 50%;
+}
+.screen__bottom{
+    background-color: #161616;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.screen__bottom__name{
+    display: flex;
+    align-items: center;
+    color: rgb(223, 222, 222);
+    justify-content: space-between;
+    width: 47%;
+    margin-left: 38%;
+}

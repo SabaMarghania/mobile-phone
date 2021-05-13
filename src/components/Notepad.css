@@ -1,0 +1,101 @@
+.Notepad{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.Notepad__container{
+    /* border: 1px solid black; */
+    width: 330px;
+    /* background-color: #161616; */
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 560px;
+}
+.Notepad__body__power{
+    display: flex;
+    width: 45px;
+    height: 15px;
+    color: #fff;
+    flex-direction: column;
+    margin-right: -38px;
+    padding: 3px;
+    margin-top: 50px;
+    font-size: 14px;
+    transform: rotate(90deg);
+    float: right;
+    background-color: rgb(65, 62, 62);
+}
+.Notepad__todo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.Notepad__todo input{
+    padding: 5px;
+    border-radius: 8px;
+    background-color: rgb(218, 216, 216);
+    outline: none;
+    width: 280px;
+    height: 30px;
+    margin-left: 15px;
+    border: none;
+    padding-left: 10px;
+}
+.Notepad__top__container{
+    border-bottom: 1px solid black;
+    background-color: #161616;
+    height: 50px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.Notepad__top{
+    display: flex;
+    height: 50px; 
+    align-items: center;
+    width: 58%;
+    float: right;
+    justify-content: space-between;
+}
+.Notepad__inline{
+    width: 50px;
+    background-color: rgb(61, 60, 60);
+    height: 4px;
+}
+.Notepad__camera{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17px;
+    height: 17px;
+    border-radius: 15px;
+    background-color: rgb(90, 88, 88);
+    margin-right: 40px;
+}
+.Notepad__camera_part{
+    width: 7px;
+    height: 7px;
+    border-radius: 15px;
+    background-color: rgb(61, 60, 60);
+}
+.Notepad__body{
+    height: 500px;
+    overflow-x: hidden;
+    width: 326px;
+    padding-bottom: 10px;
+    border: 2px solid black;
+}
+.Notepad__bottom{
+    background-color: #161616;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.Notepad__bottom__name{
+    display: flex;
+    align-items: center;
+    color: rgb(223, 222, 222);
+    justify-content: space-between;
+    width: 47%;
+    margin-left: 38%;
+
+}

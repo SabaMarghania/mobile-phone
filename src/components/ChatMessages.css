@@ -1,0 +1,48 @@
+
+.ChattMessages__profile{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    height: fit-content;
+    padding-bottom: 5px;
+}
+.ChatMessages__info{
+    padding-left: 10px;
+}
+.ChatMessages__title{
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 5px;
+    font-size: 13px;
+}
+.ChatMessages__text{
+    color: #fff;
+    word-break:break-all;
+}
+.image{
+    /* position: relative; */
+    margin-top: 5px;
+    height: 0;
+    
+}
+.ChatMessages__textCont_main{
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    }
+
+.ChatMessages__textCont{
+    align-items: center;
+    justify-content: center;
+    height:35px;
+    width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(58, 57, 57);
+    font-family: sans-serif;
+    display: flex;
+    border-radius: 15px;
+}
+.ChatMessages__image img{
+    border-radius: 15px;
+}

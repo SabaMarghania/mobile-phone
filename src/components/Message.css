@@ -1,0 +1,121 @@
+.Message{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.Message__container{
+    /* border: 1px solid black; */
+    width: 330px;
+    background-color: #161616;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 560px;
+}
+.Message__body__power{
+    display: flex;
+    width: 45px;
+    height: 15px;
+    color: #fff;
+    flex-direction: column;
+    margin-right: -38px;
+    padding: 3px;
+    margin-top: 50px;
+    font-size: 14px;
+    transform: rotate(90deg);
+    float: right;
+    background-color: rgb(65, 62, 62);
+}
+.Message__top__container{
+    border-bottom: 1px solid black;
+    background-color: #161616;
+    height: 50px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.Message__top{
+    display: flex;
+    height: 50px; 
+    align-items: center;
+    width: 58%;
+    float: right;
+    justify-content: space-between;
+}
+.Message__inline{
+    width: 50px;
+    background-color: rgb(61, 60, 60);
+    height: 4px;
+}
+.Message__camera{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17px;
+    height: 17px;
+    border-radius: 15px;
+    background-color: rgb(90, 88, 88);
+    margin-right: 40px;
+}
+.Message__camera_part{
+    width: 7px;
+    height: 7px;
+    border-radius: 15px;
+    background-color: rgb(61, 60, 60);
+}
+.Message__body{
+    width: 100%;
+    height: 500px;
+    width: 326px;
+    border: 2px solid black;
+}
+.Message__bottom{
+    background-color: #161616;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.Message__avatar{
+    width: 35px !important;
+    height: 35px !important;
+}
+.Message__avatar_2{
+    margin: 20px 20px;
+    width: 45px !important;
+    height: 45px !important;
+}
+.Message__body__groupchat{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+.Message__body__groupchat:hover{
+    background: rgb(161, 159, 159);
+   
+    color: #fff;
+}
+.Message__body__groupchat-title{
+    height: 60px;
+}
+.Message__body__groupchat-title p{
+    height: 10px;
+}
+.Message__body__groupchat p{
+    font-size: 14px;
+}
+.Message__body__top{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.Message__body__top h3{
+    color: #fff;
+    padding-left: 15px;
+}
+.Message__bottom__name{
+    display: flex;
+    align-items: center;
+    color: rgb(223, 222, 222);
+    justify-content: space-between;
+    width: 47%;
+    margin-left: 38%;
+}

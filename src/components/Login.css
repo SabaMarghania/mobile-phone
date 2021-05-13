@@ -1,0 +1,139 @@
+.Login{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.Login__container{
+    width: 330px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 560px;
+}
+.Login__body__menu{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.Login__body__browser{
+    display: flex;
+    height: 490px;
+    align-items: flex-end;
+    /* margin-left: 220px; */
+}
+.Login__body__menu__cont{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 290px;
+    height: 490px;
+}
+.Login__icon{
+    font-size: 35px !important;
+    
+}
+.Login__body__power{
+    display: flex;
+    width: 45px;
+    height: 3px;
+    color: #fff;
+    flex-direction: column;
+    margin-right: -32px;
+    padding: 3px;
+    margin-top: 50px;
+    font-size: 14px;
+    transform: rotate(90deg);
+    float: right;
+    background-color: #252525;
+}
+.Login__top__container{
+    border-bottom: 1px solid black;
+    background-color: #161616;
+    height: 50px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.Login__top{
+    display: flex;
+    height: 50px; 
+    align-items: center;
+    width: 58%;
+    float: right;
+    justify-content: space-between;
+}
+.Login__inline{
+    width: 50px;
+    background-color: rgb(61, 60, 60);
+    height: 4px;
+}
+.Login__camera{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17px;
+    height: 17px;
+    border-radius: 15px;
+    background-color: rgb(90, 88, 88);
+    margin-right: 40px;
+}
+.Login__camera_part{
+    width: 7px;
+    height: 7px;
+    border-radius: 15px;
+    background-color: rgb(61, 60, 60);
+}
+.Login__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.Login_auth-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.Login_auth-btn button{
+    width: 280px;
+    cursor: pointer;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    outline: none;
+    background-color: rgb(46, 108, 224);
+}
+.Login__body{
+    width: 100%;
+    height: 500px;
+    width: 326px;
+    border: 2px solid black;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+.Login__body__iconCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(31, 113, 168);
+    border-radius: 50%;
+}
+.Login__bottom{
+    background-color: #161616;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.Login__bottom__name{
+    display: flex;
+    align-items: center;
+    color: rgb(223, 222, 222);
+    justify-content: space-between;
+    width: 47%;
+    margin-left: 38%;
+}
