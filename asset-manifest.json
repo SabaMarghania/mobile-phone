@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/mobile-phone/static/css/main.f3ba6df4.chunk.css",
+    "main.js": "/mobile-phone/static/js/main.d6a536ba.chunk.js",
+    "main.js.map": "/mobile-phone/static/js/main.d6a536ba.chunk.js.map",
+    "runtime-main.js": "/mobile-phone/static/js/runtime-main.87cd9749.js",
+    "runtime-main.js.map": "/mobile-phone/static/js/runtime-main.87cd9749.js.map",
+    "static/js/2.91cc6c2a.chunk.js": "/mobile-phone/static/js/2.91cc6c2a.chunk.js",
+    "static/js/2.91cc6c2a.chunk.js.map": "/mobile-phone/static/js/2.91cc6c2a.chunk.js.map",
+    "static/js/3.84ee45af.chunk.js": "/mobile-phone/static/js/3.84ee45af.chunk.js",
+    "static/js/3.84ee45af.chunk.js.map": "/mobile-phone/static/js/3.84ee45af.chunk.js.map",
+    "index.html": "/mobile-phone/index.html",
+    "static/css/main.f3ba6df4.chunk.css.map": "/mobile-phone/static/css/main.f3ba6df4.chunk.css.map",
+    "static/js/2.91cc6c2a.chunk.js.LICENSE.txt": "/mobile-phone/static/js/2.91cc6c2a.chunk.js.LICENSE.txt",
+    "static/media/Screen.css": "/mobile-phone/static/media/bg.2bb52c8b.jpg",
+    "static/media/chrome.6cf96835.png": "/mobile-phone/static/media/chrome.6cf96835.png",
+    "static/media/finger.403e4582.png": "/mobile-phone/static/media/finger.403e4582.png",
+    "static/media/messenger.fec6e987.svg": "/mobile-phone/static/media/messenger.fec6e987.svg",
+    "static/media/note-taking.657f6e03.png": "/mobile-phone/static/media/note-taking.657f6e03.png",
+    "static/media/notepad.bcb89b24.png": "/mobile-phone/static/media/notepad.bcb89b24.png",
+    "static/media/song1.1633e876.mp3": "/mobile-phone/static/media/song1.1633e876.mp3",
+    "static/media/song2.3075ed5d.mp3": "/mobile-phone/static/media/song2.3075ed5d.mp3",
+    "static/media/song3.467243b0.mp3": "/mobile-phone/static/media/song3.467243b0.mp3",
+    "static/media/song4.565f011e.mp3": "/mobile-phone/static/media/song4.565f011e.mp3",
+    "static/media/song5.41c39853.mp3": "/mobile-phone/static/media/song5.41c39853.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87cd9749.js",
+    "static/js/2.91cc6c2a.chunk.js",
+    "static/css/main.f3ba6df4.chunk.css",
+    "static/js/main.d6a536ba.chunk.js"
+  ]
+}
