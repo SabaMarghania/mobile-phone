@@ -95,20 +95,11 @@
 }
 @media only screen and (max-width: 1800px) {
     .Phone__body{
-    height: 45vh;
-    }
-    .Phone__container{
-        height: 51vh;
-    }
-    
+        height: 77vh;
+        }
+        .Phone__container{
+            height: 86vh;
+        }
+     
 }
 
-@media only screen and (max-width: 1500px) {
-    .Phone__body{
-    height: 77vh;
-    }
-    .Phone__container{
-        height: 86vh;
-    }
- 
-}

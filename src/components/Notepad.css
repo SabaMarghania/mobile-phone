@@ -103,7 +103,7 @@
     }
 }
 
-@media only screen and (max-width: 1700px) {
+@media only screen and (max-width: 1800px) {
     .Notepad__body{
         height: 77vh;
     }

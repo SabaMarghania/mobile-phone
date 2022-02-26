@@ -123,13 +123,7 @@
     
 }
 
-@media only screen and (max-width: 1500px) {
-    .screen__body,.screen__body__menu{
-        height: 77vh;
-    }
- 
-}
-@media only screen and (max-width: 1270px) {
+@media only screen and (max-width: 1800px) {
     .screen__body,.screen__body__menu{
         height: 77vh;
     }
