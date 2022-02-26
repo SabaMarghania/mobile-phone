@@ -84,3 +84,40 @@
     color: rgb(223, 222, 222);
     justify-content: center;
 }
+@media only screen and (max-width: 2300px) {
+    .Phone__body{
+    height: 45vh;
+    }
+    .Phone__container{
+        height: 51vh;
+    }
+    
+}
+@media only screen and (max-width: 1800px) {
+    .Phone__body{
+    height: 45vh;
+    }
+    .Phone__container{
+        height: 51vh;
+    }
+    
+}
+
+@media only screen and (max-width: 1500px) {
+    .Phone__body{
+    height: 55vh;
+    }
+    .Phone__container{
+        height: 61vh;
+    }
+ 
+}
+@media only screen and (max-width: 1270px) {
+    .Phone__body{
+    height: 77vh;
+    }
+    .Phone__container{
+        height: 86vh;
+    }
+ 
+}
