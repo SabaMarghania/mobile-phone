@@ -1,7 +1,6 @@
 .screen{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
 }
 .screen__container{
     width: 330px;
@@ -27,7 +26,7 @@
     align-items: flex-end;
     justify-content: space-between;
     width: 290px;
-    height: 435px;
+    height: 480px;
 }
 .screen__icon{
     font-size: 35px !important;

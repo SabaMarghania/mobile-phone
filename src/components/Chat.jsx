@@ -20,6 +20,9 @@ function Chat() {
         db.collection('messages').orderBy('timestamp', 'asc').onSnapshot(snapshot => {
             setMessages(snapshot.docs.map(doc => ({ id: doc.id, data: doc.data()})))
           })
+          return () => {
+            setMessages([]); 
+          };
       }, [])
       const HandleMessage =(e)=>{
           e.preventDefault();
