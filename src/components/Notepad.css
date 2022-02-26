@@ -1,7 +1,7 @@
 .Notepad{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+
 }
 .Notepad__container{
     /* border: 1px solid black; */
