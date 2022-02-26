@@ -79,8 +79,7 @@
     background-color: rgb(61, 60, 60);
 }
 .Notepad__body{
-    height: 500px;
-    overflow-x: hidden;
+    height: 490px;
     width: 326px;
     padding-bottom: 10px;
     border: 2px solid black;

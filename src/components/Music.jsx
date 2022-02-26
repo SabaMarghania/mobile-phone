@@ -22,11 +22,14 @@ function Music() {
                      <div className="Music__camera_part"></div>
                  </div>
              </div>
-            </div>
-            <div className="Music__body">
-                <Link to='/'>
-                    <div className="Music__body__power">power</div>
+             <Link to='/'>
+                    <div className="screen__music__body__power"></div>
                 </Link>
+            </div>
+            
+            <div className="Music__body">
+           
+
              <div className="Music__fixedtop">
              <div className="Music__fixedtop__cont">
                     <Link to='/screen'>

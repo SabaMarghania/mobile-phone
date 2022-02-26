@@ -5,7 +5,7 @@ import FormTodo from './FormTodo'
 import './Notepad.css'
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 function Notepad() {
-    const [todos, setTodos] = React.useState([
+    const [todos, setTodos] = useState([
         {
           text: 'test',
           isDone: false
@@ -42,9 +42,10 @@ function Notepad() {
             </div>
             <div className="Notepad__body">
                 <Link to='/'>
-                    <div className="Notepad__body__power">power</div>
+                    <div className="screen__body__power"></div>
                 </Link>
-                   {}
+                          
+                  
                    <div className="Notepad__todo">
                    <FormTodo addTodo={addTodo} />
                         {todos.map((todo, index) => (

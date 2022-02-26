@@ -1,8 +1,8 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './FormTodo.css'
 import todoimg from '../images/note-taking.png'
 function FormTodo({ addTodo }) {
-    const [value, setValue] = React.useState("");
+    const [value, setValue] = useState("");
   
     const handleSubmit = e => {
       e.preventDefault();

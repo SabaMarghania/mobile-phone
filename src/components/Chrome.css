@@ -1,7 +1,6 @@
 .chrome{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
 }
 .chrome__container{
     /* border: 1px solid black; */

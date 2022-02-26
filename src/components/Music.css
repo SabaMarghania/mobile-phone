@@ -4,7 +4,6 @@
 
 }
 .Music__container{
-    /* border: 1px solid black; */
     width: 330px;
     background-color: #0f0f0f;
     border-top-left-radius: 30px;
@@ -43,7 +42,6 @@
 .Music__fixedtop{
     position: fixed;
     display: flex;
-
     width: 290px;
     z-index: 10;
     align-items: center;
@@ -114,6 +112,21 @@
     width: 326px;
     border: 2px solid black;
     overflow-x: hidden;
+}
+.screen__music__body__power{
+    display: flex;
+    width: 45px;
+    height: 3px;
+    color: #fff;
+    flex-direction: column;
+    margin-right: -222px;
+    padding: 3px;
+    margin-top: 103px;
+    font-size: 14px;
+    transform: rotate(90deg);
+    float: right;
+    background-color: #252525;
+
 }
 .Music__bottom{
     background-color: #161616;
