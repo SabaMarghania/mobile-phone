@@ -10,11 +10,11 @@
 }
 .screen__body__menu{
     display: flex;
-    width: 300px;
     align-items: center;
     justify-content: space-between;
     margin-left: 20px;
-    /* margin-bottom: 8px; */
+    height: 77vh;
+    position: relative;
 }
 .screen__body__browser{
     display: flex;
@@ -27,7 +27,8 @@
     align-items: flex-end;
     justify-content: space-between;
     width: 290px;
-    height: 500px;
+    position: absolute;
+    bottom: 0;
 }
 .screen__icon{
     font-size: 35px !important;
