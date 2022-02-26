@@ -1,7 +1,7 @@
 .phone{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+   
 }
 .Phone__container{
     /* border: 1px solid black; */
