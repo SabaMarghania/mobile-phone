@@ -143,12 +143,7 @@
     }
 }
 
-@media only screen and (max-width: 1500px) {
-    .Login__body{
-        height: 55vh;
-    }
-}
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1700px) {
     .Login__body{
         height: 77vh;
     }

@@ -126,15 +126,11 @@
  
 }
 
-@media only screen and (max-width: 1500px) {
-    .Message__body{
-        height: 55vh;
-    }
- 
-}
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1700px) {
     .Message__body{
         height: 77vh;
     }
-  
+    .Message__container{
+        height: 86vh;
+    }
 }

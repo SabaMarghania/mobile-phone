@@ -198,7 +198,7 @@
         height: 55vh;
     }
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1700px) {
     .ChromeSearch__body{
         height: 77vh;
     }

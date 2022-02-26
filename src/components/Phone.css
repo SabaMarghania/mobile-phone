@@ -105,15 +105,6 @@
 
 @media only screen and (max-width: 1500px) {
     .Phone__body{
-    height: 55vh;
-    }
-    .Phone__container{
-        height: 61vh;
-    }
- 
-}
-@media only screen and (max-width: 1270px) {
-    .Phone__body{
     height: 77vh;
     }
     .Phone__container{
